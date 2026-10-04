@@ -1,4 +1,4 @@
-version = 1
+﻿version = 1
 revision = 3
 requires-python = ">=3.11"
 resolution-markers = [
@@ -2436,10 +2436,10 @@ source = { editable = "." }
 dependencies = [
     { name = "fastapi" },
     { name = "faster-whisper" },
+    { name = "httpx" },
     { name = "path" },
     { name = "python-dotenv" },
     { name = "qdrant-client" },
-    { name = "sentence-transformers" },
     { name = "uvicorn", extra = ["standard"] },
     { name = "youtube-transcript-api" },
     { name = "yt-dlp" },
@@ -2449,10 +2449,10 @@ dependencies = [
 requires-dist = [
     { name = "fastapi", specifier = ">=0.142.2" },
     { name = "faster-whisper", specifier = ">=1.2.1" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "path", specifier = ">=17.1.1" },
     { name = "python-dotenv", specifier = ">=1.2.4" },
     { name = "qdrant-client", specifier = ">=1.19.1" },
-    { name = "sentence-transformers", specifier = ">=6.1.0" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.54.0" },
     { name = "youtube-transcript-api", specifier = ">=1.2.4" },
     { name = "yt-dlp", specifier = ">=2026.8.19" },

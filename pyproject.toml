@@ -10,10 +10,10 @@ requires-python = ">=3.11"
 dependencies = [
     "fastapi>=0.142.2",
     "faster-whisper>=1.2.1",
+    "httpx>=0.28.1",
     "path>=17.1.1",
     "python-dotenv>=1.2.4",
     "qdrant-client>=1.19.1",
-    "sentence-transformers>=6.1.0",
     "uvicorn[standard]>=0.54.0",
     "youtube-transcript-api>=1.2.4",
     "yt-dlp>=2026.8.19",
