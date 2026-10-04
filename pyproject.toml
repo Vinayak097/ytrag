@@ -1,0 +1,27 @@
+[project]
+name = "ytscrape-s"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { email = "vinayak20injamure@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.142.2",
+    "faster-whisper>=1.2.1",
+    "path>=17.1.1",
+    "python-dotenv>=1.2.4",
+    "qdrant-client>=1.19.1",
+    "sentence-transformers>=6.1.0",
+    "uvicorn[standard]>=0.54.0",
+    "youtube-transcript-api>=1.2.4",
+    "yt-dlp>=2026.8.19",
+]
+
+[project.scripts]
+ytscrape-s = "ytscrape_s:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
