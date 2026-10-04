@@ -9,7 +9,7 @@ EMBEDDINGS_DIR = Path("embeddings")
 EMBEDDING_SERVICE_URL = os.getenv("EMBEDDING_SERVICE_URL", "http://localhost:8001").rstrip("/")
 EMBEDDING_BACKEND = os.getenv("EMBEDDING_BACKEND", "service").lower()
 EMBEDDING_TIMEOUT_SECONDS = float(os.getenv("EMBEDDING_TIMEOUT_SECONDS", "60"))
-MODEL_NAME = "BAAI/bge-m3"
+MODEL_NAME = "multilingual-e5-small"
 
 
 def create_embeddings(chunks):
